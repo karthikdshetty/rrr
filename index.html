@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Product Identification Using Blockchain</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/277dd827d4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><img src="css/1.svg" class="logo"></div>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certification</a></li>
+                    <li><a href="#contact">Feedback</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello</p>
+                <h1>This is <span class="multitext"> Coder</span></h1>
+                <a href="https://www.linkedin.com/in/karthik-d-shetty-b85570244/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/karthikdshetty"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/k3rthik/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/k1rthik"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div>
+                <a href="#about" class="btn">Explore</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ............about...... -->
+<div id="about">
+    <div class="container">
+        <div class ="row">
+            <div class="about-col-1">
+               <img src="css/2.svg">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title"> About This Project</h1>
+            <p>Hello, and welcome to the world of fake product identification using blockchain! In an era where counterfeit products pose a significant threat to consumer safety, trust, and the economy, we have developed a groundbreaking project that leverages the power of blockchain technology to combat this pervasive issue. Allow us to introduce you to a cutting-edge solution that aims to revolutionize product authentication and eliminate the proliferation of fake goods in the market. Our project, known as "Fake Product Identification using Blockchain," harnesses the immutable and transparent nature of blockchain to create an incorruptible system for verifying the authenticity of products.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Education')">Languages Used</p>
+            <p class="tab-links" onclick="opentab('skills')">System Requirements</p>
+            <p class="tab-links" onclick="opentab('projects')">Software Requiremnets</p>
+            
+        </div>
+        <div class="tab-contents active-tab " id="Education">
+            <ul>
+                <li><span>FrontEnd</span><br>HTML<br>Css<br>Javascript</li>
+                <li><span>BackEnd</span><br> Truffle Suite<br>NodeJS</li>
+                <li><span>SmartContracts</span> <br> Solidity</li>
+              
+            </ul>
+        </div>
+        <div class="tab-contents "id="skills">
+            <ul>
+                <li><span>Ram</span><br>8Gb Min</li>
+                <li><span>Processor</span><br>i5 10th Gen</li>
+                <li><span>Ssd</span><br> 250Gb</li>
+                
+            </ul>
+        </div>
+        <div class="tab-contents"id="projects">
+            <ul>
+                <li><span>Ganache</span><br> This the simulated network which we used to run the project</li>
+                <li><span>Google Chrome</span><br>To deploy the project into localhost we will be using this software</li>
+                <li><span>Visual Studio</span><br>To write and migrate the smart contracts we will be using this IDE</li>  
+            </ul>
+        </div>
+        
+         </div>
+    </div>
+</div>
+
+<!-- --------Interests------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Certification</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-slack"></i>
+                <h2>JnanaSangama-2023</h2>
+                <p>Bagged 2nd place at JnanaSangama-2023, National level student conference held on 5 May 2023 at VCET, Puttur</p>
+                <a href="https://drive.google.com/file/d/1-5vFxt1Orv3-9p4c6_Jeq54hU25jSLPF/view?usp=sharing">Learn more</a>
+            </div>
+
+           
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- --------contacts------ -->
+<div id="contact">
+    
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>blockkchain4@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7026800874</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="css/3.pdf" download class="btn btn2"> Download Report</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright reserved //2023</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    var typingeffect = new Typed(".multitext",{
+        strings :["0", "Fake","Product","Identification","Using","Blockchain"],
+        loop:true,
+        typeSpeed :100,
+        backspeed : 80,
+        backDelay :1500
+    })
+</script>
+  
+</body>
+</html>
